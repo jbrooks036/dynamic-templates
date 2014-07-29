@@ -1,0 +1,293 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/node/bin/node',
+1 verbose cli   '/usr/local/node/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt',
+1 verbose cli   'jshint­stylish',
+1 verbose cli   'grunt­contrib­watch',
+1 verbose cli   'grunt­contrib­jshint',
+1 verbose cli   'mocha',
+1 verbose cli   'chai',
+1 verbose cli   'blanket',
+1 verbose cli   'coveralls' ]
+2 info using npm@1.4.14
+3 info using node@v0.10.29
+4 verbose readDependencies using package.json deps
+5 verbose cache add [ 'grunt', null ]
+6 verbose cache add name=undefined spec="grunt" args=["grunt",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'grunt',
+7 verbose parsed url   path: 'grunt',
+7 verbose parsed url   href: 'grunt' }
+8 verbose cache add [ 'jshint­stylish', null ]
+9 verbose cache add name=undefined spec="jshint­stylish" args=["jshint­stylish",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'jshint­stylish',
+10 verbose parsed url   path: 'jshint­stylish',
+10 verbose parsed url   href: 'jshint­stylish' }
+11 verbose cache add [ 'grunt­contrib­watch', null ]
+12 verbose cache add name=undefined spec="grunt­contrib­watch" args=["grunt­contrib­watch",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'grunt­contrib­watch',
+13 verbose parsed url   path: 'grunt­contrib­watch',
+13 verbose parsed url   href: 'grunt­contrib­watch' }
+14 verbose cache add [ 'grunt­contrib­jshint', null ]
+15 verbose cache add name=undefined spec="grunt­contrib­jshint" args=["grunt­contrib­jshint",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'grunt­contrib­jshint',
+16 verbose parsed url   path: 'grunt­contrib­jshint',
+16 verbose parsed url   href: 'grunt­contrib­jshint' }
+17 verbose cache add [ 'mocha', null ]
+18 verbose cache add name=undefined spec="mocha" args=["mocha",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'mocha',
+19 verbose parsed url   path: 'mocha',
+19 verbose parsed url   href: 'mocha' }
+20 verbose cache add [ 'chai', null ]
+21 verbose cache add name=undefined spec="chai" args=["chai",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'chai',
+22 verbose parsed url   path: 'chai',
+22 verbose parsed url   href: 'chai' }
+23 verbose cache add [ 'blanket', null ]
+24 verbose cache add name=undefined spec="blanket" args=["blanket",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'blanket',
+25 verbose parsed url   path: 'blanket',
+25 verbose parsed url   href: 'blanket' }
+26 verbose cache add [ 'coveralls', null ]
+27 verbose cache add name=undefined spec="coveralls" args=["coveralls",null]
+28 verbose parsed url { protocol: null,
+28 verbose parsed url   slashes: null,
+28 verbose parsed url   auth: null,
+28 verbose parsed url   host: null,
+28 verbose parsed url   port: null,
+28 verbose parsed url   hostname: null,
+28 verbose parsed url   hash: null,
+28 verbose parsed url   search: null,
+28 verbose parsed url   query: null,
+28 verbose parsed url   pathname: 'coveralls',
+28 verbose parsed url   path: 'coveralls',
+28 verbose parsed url   href: 'coveralls' }
+29 silly lockFile 20ff3fd8-grunt grunt
+30 verbose lock grunt /home/nss/.npm/20ff3fd8-grunt.lock
+31 silly lockFile 60c47ba6-jshint-stylish jshint­stylish
+32 verbose lock jshint­stylish /home/nss/.npm/60c47ba6-jshint-stylish.lock
+33 silly lockFile 91842a8d-grunt-contrib-watch grunt­contrib­watch
+34 verbose lock grunt­contrib­watch /home/nss/.npm/91842a8d-grunt-contrib-watch.lock
+35 silly lockFile e4dfbe9d-grunt-contrib-jshint grunt­contrib­jshint
+36 verbose lock grunt­contrib­jshint /home/nss/.npm/e4dfbe9d-grunt-contrib-jshint.lock
+37 silly lockFile a619da43-mocha mocha
+38 verbose lock mocha /home/nss/.npm/a619da43-mocha.lock
+39 silly lockFile 353fd541-chai chai
+40 verbose lock chai /home/nss/.npm/353fd541-chai.lock
+41 silly lockFile 60791989-blanket blanket
+42 verbose lock blanket /home/nss/.npm/60791989-blanket.lock
+43 silly lockFile 53fc9bcf-coveralls coveralls
+44 verbose lock coveralls /home/nss/.npm/53fc9bcf-coveralls.lock
+45 silly lockFile 20ff3fd8-grunt grunt
+46 silly lockFile 20ff3fd8-grunt grunt
+47 silly lockFile 60c47ba6-jshint-stylish jshint­stylish
+48 silly lockFile 60c47ba6-jshint-stylish jshint­stylish
+49 silly lockFile 91842a8d-grunt-contrib-watch grunt­contrib­watch
+50 silly lockFile 91842a8d-grunt-contrib-watch grunt­contrib­watch
+51 silly lockFile e4dfbe9d-grunt-contrib-jshint grunt­contrib­jshint
+52 silly lockFile e4dfbe9d-grunt-contrib-jshint grunt­contrib­jshint
+53 silly lockFile a619da43-mocha mocha
+54 silly lockFile a619da43-mocha mocha
+55 silly lockFile 353fd541-chai chai
+56 silly lockFile 353fd541-chai chai
+57 silly lockFile 60791989-blanket blanket
+58 silly lockFile 60791989-blanket blanket
+59 silly lockFile 53fc9bcf-coveralls coveralls
+60 silly lockFile 53fc9bcf-coveralls coveralls
+61 verbose addNamed [ 'grunt', '' ]
+62 verbose addNamed [ null, '*' ]
+63 silly lockFile 55f1ff24-grunt grunt@
+64 verbose lock grunt@ /home/nss/.npm/55f1ff24-grunt.lock
+65 verbose addNamed [ 'jshint­stylish', '' ]
+66 verbose addNamed [ null, '*' ]
+67 silly lockFile b5090d02-jshint-stylish jshint­stylish@
+68 verbose lock jshint­stylish@ /home/nss/.npm/b5090d02-jshint-stylish.lock
+69 verbose addNamed [ 'grunt­contrib­watch', '' ]
+70 verbose addNamed [ null, '*' ]
+71 silly lockFile dddf833d-grunt-contrib-watch grunt­contrib­watch@
+72 verbose lock grunt­contrib­watch@ /home/nss/.npm/dddf833d-grunt-contrib-watch.lock
+73 verbose addNamed [ 'grunt­contrib­jshint', '' ]
+74 verbose addNamed [ null, '*' ]
+75 silly lockFile 7019be95-grunt-contrib-jshint grunt­contrib­jshint@
+76 verbose lock grunt­contrib­jshint@ /home/nss/.npm/7019be95-grunt-contrib-jshint.lock
+77 verbose addNamed [ 'mocha', '' ]
+78 verbose addNamed [ null, '*' ]
+79 silly lockFile b9899f31-mocha mocha@
+80 verbose lock mocha@ /home/nss/.npm/b9899f31-mocha.lock
+81 verbose addNamed [ 'chai', '' ]
+82 verbose addNamed [ null, '*' ]
+83 silly lockFile 583c5f63-chai chai@
+84 verbose lock chai@ /home/nss/.npm/583c5f63-chai.lock
+85 verbose addNamed [ 'blanket', '' ]
+86 verbose addNamed [ null, '*' ]
+87 silly lockFile 0577903d-blanket blanket@
+88 verbose lock blanket@ /home/nss/.npm/0577903d-blanket.lock
+89 verbose addNamed [ 'coveralls', '' ]
+90 verbose addNamed [ null, '*' ]
+91 silly lockFile c2a1b9ca-coveralls coveralls@
+92 verbose lock coveralls@ /home/nss/.npm/c2a1b9ca-coveralls.lock
+93 silly addNameRange { name: 'grunt', range: '*', hasData: false }
+94 silly addNameRange { name: 'jshint­stylish', range: '*', hasData: false }
+95 silly addNameRange { name: 'grunt­contrib­watch', range: '*', hasData: false }
+96 silly addNameRange { name: 'grunt­contrib­jshint', range: '*', hasData: false }
+97 silly addNameRange { name: 'mocha', range: '*', hasData: false }
+98 silly addNameRange { name: 'chai', range: '*', hasData: false }
+99 silly addNameRange { name: 'blanket', range: '*', hasData: false }
+100 silly addNameRange { name: 'coveralls', range: '*', hasData: false }
+101 verbose url raw jshint­stylish
+102 verbose url resolving [ 'https://registry.npmjs.org/', './jshint%C2%ADstylish' ]
+103 verbose url resolved https://registry.npmjs.org/jshint%C2%ADstylish
+104 info trying registry request attempt 1 at 22:17:06
+105 http GET https://registry.npmjs.org/jshint%C2%ADstylish
+106 verbose url raw grunt­contrib­watch
+107 verbose url resolving [ 'https://registry.npmjs.org/',
+107 verbose url resolving   './grunt%C2%ADcontrib%C2%ADwatch' ]
+108 verbose url resolved https://registry.npmjs.org/grunt%C2%ADcontrib%C2%ADwatch
+109 info trying registry request attempt 1 at 22:17:06
+110 http GET https://registry.npmjs.org/grunt%C2%ADcontrib%C2%ADwatch
+111 verbose url raw grunt­contrib­jshint
+112 verbose url resolving [ 'https://registry.npmjs.org/',
+112 verbose url resolving   './grunt%C2%ADcontrib%C2%ADjshint' ]
+113 verbose url resolved https://registry.npmjs.org/grunt%C2%ADcontrib%C2%ADjshint
+114 info trying registry request attempt 1 at 22:17:06
+115 http GET https://registry.npmjs.org/grunt%C2%ADcontrib%C2%ADjshint
+116 verbose url raw grunt
+117 verbose url resolving [ 'https://registry.npmjs.org/', './grunt' ]
+118 verbose url resolved https://registry.npmjs.org/grunt
+119 info trying registry request attempt 1 at 22:17:06
+120 verbose etag "JQIXEY3PQR38MGUJ2OFD7KEU"
+121 http GET https://registry.npmjs.org/grunt
+122 verbose url raw chai
+123 verbose url resolving [ 'https://registry.npmjs.org/', './chai' ]
+124 verbose url resolved https://registry.npmjs.org/chai
+125 info trying registry request attempt 1 at 22:17:06
+126 verbose etag "7686PXJ8UVXSZNSOPBJPLUJRD"
+127 http GET https://registry.npmjs.org/chai
+128 verbose url raw mocha
+129 verbose url resolving [ 'https://registry.npmjs.org/', './mocha' ]
+130 verbose url resolved https://registry.npmjs.org/mocha
+131 info trying registry request attempt 1 at 22:17:06
+132 verbose etag "DQ1KPJKNUD9X4YZPJM5LBOYQT"
+133 http GET https://registry.npmjs.org/mocha
+134 verbose url raw blanket
+135 verbose url resolving [ 'https://registry.npmjs.org/', './blanket' ]
+136 verbose url resolved https://registry.npmjs.org/blanket
+137 info trying registry request attempt 1 at 22:17:06
+138 verbose etag "C0BWNAGJR9K8BY26BQAM548ZQ"
+139 http GET https://registry.npmjs.org/blanket
+140 verbose url raw coveralls
+141 verbose url resolving [ 'https://registry.npmjs.org/', './coveralls' ]
+142 verbose url resolved https://registry.npmjs.org/coveralls
+143 info trying registry request attempt 1 at 22:17:06
+144 verbose etag "1IQ3XY9PG0TCM6OD9FYRH0EUD"
+145 http GET https://registry.npmjs.org/coveralls
+146 http 404 https://registry.npmjs.org/grunt%C2%ADcontrib%C2%ADwatch
+147 verbose headers { date: 'Tue, 29 Jul 2014 16:35:37 GMT',
+147 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+147 verbose headers   'content-type': 'application/json',
+147 verbose headers   'cache-control': 'max-age=0',
+147 verbose headers   'content-length': '52',
+147 verbose headers   'accept-ranges': 'bytes',
+147 verbose headers   via: '1.1 varnish',
+147 verbose headers   age: '0',
+147 verbose headers   'x-served-by': 'cache-at52-ATL',
+147 verbose headers   'x-cache': 'MISS',
+147 verbose headers   'x-cache-hits': '0',
+147 verbose headers   'x-timer': 'S1406651737.873138,VS0,VE25',
+147 verbose headers   'keep-alive': 'timeout=10, max=50',
+147 verbose headers   connection: 'Keep-Alive' }
+148 silly registry.get cb [ 404,
+148 silly registry.get   { date: 'Tue, 29 Jul 2014 16:35:37 GMT',
+148 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+148 silly registry.get     'content-type': 'application/json',
+148 silly registry.get     'cache-control': 'max-age=0',
+148 silly registry.get     'content-length': '52',
+148 silly registry.get     'accept-ranges': 'bytes',
+148 silly registry.get     via: '1.1 varnish',
+148 silly registry.get     age: '0',
+148 silly registry.get     'x-served-by': 'cache-at52-ATL',
+148 silly registry.get     'x-cache': 'MISS',
+148 silly registry.get     'x-cache-hits': '0',
+148 silly registry.get     'x-timer': 'S1406651737.873138,VS0,VE25',
+148 silly registry.get     'keep-alive': 'timeout=10, max=50',
+148 silly registry.get     connection: 'Keep-Alive' } ]
+149 silly lockFile dddf833d-grunt-contrib-watch grunt­contrib­watch@
+150 silly lockFile dddf833d-grunt-contrib-watch grunt­contrib­watch@
+151 error 404 404 Not Found: grunt%C2%ADcontrib%C2%ADwatch
+151 error 404
+151 error 404 'grunt%C2%ADcontrib%C2%ADwatch' is not in the npm registry.
+151 error 404 You should bug the author to publish it
+151 error 404 It was specified as a dependency of 'dynamic-templates'
+151 error 404
+151 error 404 Note that you can also install from a
+151 error 404 tarball, folder, or http url, or git url.
+152 error System Linux 3.13.0-24-generic
+153 error command "/usr/local/node/bin/node" "/usr/local/node/bin/npm" "install" "grunt" "jshint­stylish" "grunt­contrib­watch" "grunt­contrib­jshint" "mocha" "chai" "blanket" "coveralls"
+154 error cwd /home/nss/apps/code/dynamic-templates/app
+155 error node -v v0.10.29
+156 error npm -v 1.4.14
+157 error code E404
+158 verbose exit [ 1, true ]
