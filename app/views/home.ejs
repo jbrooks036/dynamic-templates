@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dynamic Templates</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1>Welcome to Dynamic Templates</h1>
+
+    <h2> Multiply 3 * 3 = <%= 3 * 3 %> </h2>
+    <h2> </h2>
+    <h2> A random number between 3 and 12:  <%= Math.floor(Math.random() * 9) + 3 %> </h2>
+
+    <% var a = 3, b = 2 %>
+    <p><%= a + b %></p>
+
+   <% if(a===3) { %>
+     <p>a is 3</p>
+     <% } else { %>
+     <p>a not 3</p>
+     <% } %>
+
+     <% var colors = ['blue', 'green', 'yellow', 'orange', 'pink', 'red', 'purple'] %>
+     <% var fonts = ['indie flower', 'Josefin Sans', 'Dancing Script'] %>
+     <% for (var i= 0; i < colors.length; i++) { %>
+     <p style="color:<%= colors[i] %>; 
+       background-color:<%= (i===(colors.length-1)) ? 'blue' : colors[i+1] %>; 
+       font-family:<%= fonts[i%3] %>;
+       font-size:<%= 12 + (i*2) %>px"> 
+     <%= colors[i] %> 
+     </p>
+
+     <% } %>
+
+  </body>
+</html>
+
