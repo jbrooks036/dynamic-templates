@@ -18,18 +18,31 @@
       </thead>
       <tbody> 
       <% for (var r = 0; r < 8; r++) { %>
-        <tr height:50px> 
+        <tr> 
         <% for (var c = 0; c < 8; c++) { %>
         <% if ((r+c)%2) { %>
-              <td style="background-color:red; width:50px;"> </td>
+              <td style="background-color:'red'"> </td>
               <% } else { %>
-              <td style="background-color:black; width:50px;"> </td>
+              <td style="background-color:'black'"> </td>
               <% } %>
           <% } %>
         </tr>
         <% } %>
       </tbody>
     </table>
+
+
+     <% var colors = ['blue', 'green', 'yellow', 'orange', 'pink', 'red', 'purple'] %>
+     <% var fonts = ['indie flower', 'Josefin Sans', 'Dancing Script'] %>
+     <% for (var i= 0; i < colors.length; i++) { %>
+     <p style="color:<%= colors[i] %>; 
+       background-color:<%= (i===(colors.length-1)) ? 'blue' : colors[i+1] %>; 
+       font-family:<%= fonts[i%3] %>;
+       font-size:<%= 12 + (i*2) %>px"> 
+     <%= colors[i] %> 
+     </p>
+
+     <% } %>
 
     </body>
   </html>

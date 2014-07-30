@@ -8,6 +8,11 @@
   <body>
     <h1>Welcome to Dynamic Templates</h1>
 
+    <nav>
+      <a href="/">Basic</a>
+      <a href="/checkers">Checkers</a>
+    </nav>
+
     <h2> Multiply 3 * 3 = <%= 3 * 3 %> </h2>
     <h2> </h2>
     <h2> A random number between 3 and 12:  <%= Math.floor(Math.random() * 9) + 3 %> </h2>
@@ -24,12 +29,12 @@
      <% var colors = ['blue', 'green', 'yellow', 'orange', 'pink', 'red', 'purple'] %>
      <% var fonts = ['indie flower', 'Josefin Sans', 'Dancing Script'] %>
      <% for (var i= 0; i < colors.length; i++) { %>
-     <p style="color:<%= colors[i] %>; 
-       background-color:<%= (i===(colors.length-1)) ? 'blue' : colors[i+1] %>; 
-       font-family:<%= fonts[i%3] %>;
-       font-size:<%= 12 + (i*2) %>px"> 
-     <%= colors[i] %> 
-     </p>
+       <p style="color:<%= colors[i] %>; 
+         background-color:<%= (i===(colors.length-1)) ? 'blue' : colors[i+1] %>; 
+         font-family:<%= fonts[i%3] %>;
+         font-size:<%= 12 + (i*2) %>px"> 
+       <%= colors[i] %> 
+       </p>
 
      <% } %>
 

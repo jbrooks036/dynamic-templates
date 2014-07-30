@@ -14,6 +14,10 @@ app.get('/', function(req, res) {
   res.render('home');
 });
 
+app.get('/checkers', function(req, res) {
+  res.render('checkers');
+});
+
 app.listen(6006, function() {
   console.log('Dynamic Templates is happening on ...', process.env.PORT);
 });
